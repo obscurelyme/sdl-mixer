@@ -1,0 +1,13 @@
+{
+  "name": "mixer-test",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "sdl2",
+    {
+      "name": "sdl2-mixer",
+      "features": ["dynamic-load", "libvorbis", "mpg123"],
+      "platform": "windows"
+    }
+  ],
+  "builtin-baseline": "843e0ba0d8f9c9c572e45564263eedfc7745e74f"
+}
